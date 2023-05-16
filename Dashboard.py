@@ -1,17 +1,17 @@
 import streamlit as st
 import pandas as pd
 import numpy as np
-import plotly.express as px
-import dash
+# import plotly.express as px
+# import dash
 import plotly.figure_factory as ff
-import matplotlib.pyplot as plt
+# import matplotlib.pyplot as plt
 
 beneficiary = pd.read_csv("benificiary_d.csv")
-beneficiary1= pd.read_csv("benificiary_c.csv")
+# beneficiary1= pd.read_csv("benificiary_c.csv")
 inpatient_c = pd.read_csv("inpatient_c .csv")
-inpatient_f = pd.read_csv("inpatint_f.csv")
+# inpatient_f = pd.read_csv("inpatint_f.csv")
 outpatient_c = pd.read_csv("outpatient_c.csv")
-outpatient_f = pd.read_csv("outpatient_f.csv")
+# outpatient_f = pd.read_csv("outpatient_f.csv")
 #demographic_clicked=False
 # Set page title and color
 st.set_page_config(page_title=" CMS Dashboard", page_icon=":bar_chart:", layout="wide", initial_sidebar_state="expanded")
