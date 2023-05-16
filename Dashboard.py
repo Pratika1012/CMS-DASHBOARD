@@ -3,7 +3,7 @@ import pandas as pd
 import numpy as np
 # import plotly.express as px
 # import dash
-import plotly.figure_factory as ff
+# import plotly.figure_factory as ff
 # import matplotlib.pyplot as plt
 
 beneficiary = pd.read_csv("benificiary_d.csv")
